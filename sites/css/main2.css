@@ -483,6 +483,11 @@ div.tree-child-horizontal {
 }
 
 @media (max-width:640px) {
+    .mapouter {
+        text-align: right;
+        height: 360px;
+        width: 221px;
+    }
     .gmap_canvas {
         overflow: hidden;
         background: none!important;

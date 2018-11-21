@@ -11185,7 +11185,7 @@ screen and (min-width:75em) {
     position: fixed;
     width: 24px;
     height: 14px;
-    background-image: url(/themes/symphony/images/hamburger.png);
+    background-image: url();
     z-index: 999999999999999;
 }
 
@@ -14738,7 +14738,7 @@ body.user-logged-in #block-symphony-local-actions li {
 }
 
 body.path-yamlform #nav-btn.white {
-    background-image: url(/themes/symphony/images/hamburger.png);
+    background-image: url();
 }
 
 body.path-yamlform .headerimage {
