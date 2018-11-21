@@ -468,3 +468,25 @@ div.tree-child-last {
 div.tree-child-horizontal {
     background: url(/core/themes/stable/images/core/tree.png) no-repeat -11px center;
 }
+
+.mapouter {
+    text-align: right;
+    height: 330px;
+    width: 760px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 330px;
+    width: 760px;
+}
+
+@media (max-width:640px) {
+    .gmap_canvas {
+        overflow: hidden;
+        background: none!important;
+        height: 360px;
+        width: 221px;
+    }
+}
