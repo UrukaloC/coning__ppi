@@ -11121,7 +11121,7 @@ screen and (min-width:75em) {
 @font-face {
     font-family: 'GT Walsheim';
     src: url(/themes/symphony/fonts/GTWalsheim.eot);
-    src: url(/themes/symphony/fonts/GTWalsheim.eot#iefix) format("embedded-opentype"), url(/themes/symphony/fonts/GTWalsheim.woff) format("woff"), url(/themes/symphony/fonts/GTWalsheim.ttf) format("truetype");
+    /* src: url(/themes/symphony/fonts/GTWalsheim.eot#iefix) format("embedded-opentype"), url(/themes/symphony/fonts/GTWalsheim.woff) format("woff"), url(/themes/symphony/fonts/GTWalsheim.ttf) format("truetype"); */
     font-weight: normal;
     font-style: normal;
 }
@@ -11129,7 +11129,7 @@ screen and (min-width:75em) {
 @font-face {
     font-family: 'GT Walsheim';
     src: url(/themes/symphony/fonts/GTWalsheim-Medium.eot);
-    src: url(/themes/symphony/fonts/GTWalsheim-Medium.eot#iefix) format("embedded-opentype"), url(/themes/symphony/fonts/GTWalsheim-Medium.woff) format("woff"), url(/themes/symphony/fonts/GTWalsheim-Medium.ttf) format("truetype");
+    /* src: url(/themes/symphony/fonts/GTWalsheim-Medium.eot#iefix) format("embedded-opentype"), url(/themes/symphony/fonts/GTWalsheim-Medium.woff) format("woff"), url(/themes/symphony/fonts/GTWalsheim-Medium.ttf) format("truetype"); */
     font-weight: 500;
     font-style: normal;
 }
@@ -11137,7 +11137,7 @@ screen and (min-width:75em) {
 @font-face {
     font-family: 'GT Walsheim';
     src: url(/themes/symphony/fonts/GTWalsheim-LightOblique.eot);
-    src: url(/themes/symphony/fonts/GTWalsheim-LightOblique.eot#iefix) format("embedded-opentype"), url(/themes/symphony/fonts/GTWalsheim-LightOblique.woff) format("woff"), url(/themes/symphony/fonts/GTWalsheim-LightOblique.ttf) format("truetype");
+    /* src: url(/themes/symphony/fonts/GTWalsheim-LightOblique.eot#iefix) format("embedded-opentype"), url(/themes/symphony/fonts/GTWalsheim-LightOblique.woff) format("woff"), url(/themes/symphony/fonts/GTWalsheim-LightOblique.ttf) format("truetype"); */
     font-weight: 300;
     font-style: normal;
 }
@@ -11145,7 +11145,7 @@ screen and (min-width:75em) {
 @font-face {
     font-family: 'GT Walsheim';
     src: url(/themes/symphony/fonts/GTWalsheim-RegularOblique.eot);
-    src: url(/themes/symphony/fonts/GTWalsheim-RegularOblique.eot#iefix) format("embedded-opentype"), url(/themes/symphony/fonts/GTWalsheim-RegularOblique.woff) format("woff"), url(/themes/symphony/fonts/GTWalsheim-RegularOblique.ttf) format("truetype");
+    /* src: url(/themes/symphony/fonts/GTWalsheim-RegularOblique.eot#iefix) format("embedded-opentype"), url(/themes/symphony/fonts/GTWalsheim-RegularOblique.woff) format("woff"), url(/themes/symphony/fonts/GTWalsheim-RegularOblique.ttf) format("truetype"); */
     font-weight: normal;
     font-style: normal;
 }
@@ -11153,7 +11153,7 @@ screen and (min-width:75em) {
 @font-face {
     font-family: 'GT Walsheim';
     src: url(/themes/symphony/fonts/GTWalsheim-Light.eot);
-    src: url(/themes/symphony/fonts/GTWalsheim-Light.eot#iefix) format("embedded-opentype"), url(/themes/symphony/fonts/GTWalsheim-Light.woff) format("woff"), url(/themes/symphony/fonts/GTWalsheim-Light.ttf) format("truetype");
+    /* src: url(/themes/symphony/fonts/GTWalsheim-Light.eot#iefix) format("embedded-opentype"), url(/themes/symphony/fonts/GTWalsheim-Light.woff) format("woff"), url(/themes/symphony/fonts/GTWalsheim-Light.ttf) format("truetype"); */
     font-weight: 300;
     font-style: normal;
 }
@@ -11161,7 +11161,7 @@ screen and (min-width:75em) {
 @font-face {
     font-family: 'GT Walsheim';
     src: url(/themes/symphony/fonts/GTWalsheim-Bold.eot);
-    src: url(/themes/symphony/fonts/GTWalsheim-Bold.eot#iefix) format("embedded-opentype"), url(/themes/symphony/fonts/GTWalsheim-Bold.woff) format("woff"), url(/themes/symphony/fonts/GTWalsheim-Bold.ttf) format("truetype");
+    /* src: url(/themes/symphony/fonts/GTWalsheim-Bold.eot#iefix) format("embedded-opentype"), url(/themes/symphony/fonts/GTWalsheim-Bold.woff) format("woff"), url(/themes/symphony/fonts/GTWalsheim-Bold.ttf) format("truetype"); */
     font-weight: bold;
     font-style: normal;
 }
@@ -11169,7 +11169,7 @@ screen and (min-width:75em) {
 @font-face {
     font-family: 'GT Walsheim';
     src: url(/themes/symphony/fonts/GTWalsheim-BoldOblique.eot);
-    src: url(/themes/symphony/fonts/GTWalsheim-BoldOblique.eot#iefix) format("embedded-opentype"), url(/themes/symphony/fonts/GTWalsheim-BoldOblique.woff) format("woff"), url(/themes/symphony/fonts/GTWalsheim-BoldOblique.ttf) format("truetype");
+    /* src: url(/themes/symphony/fonts/GTWalsheim-BoldOblique.eot#iefix) format("embedded-opentype"), url(/themes/symphony/fonts/GTWalsheim-BoldOblique.woff) format("woff"), url(/themes/symphony/fonts/GTWalsheim-BoldOblique.ttf) format("truetype"); */
     font-weight: bold;
     font-style: normal;
 }
@@ -11189,6 +11189,10 @@ screen and (min-width:75em) {
     z-index: 999999999999999;
 }
 
+.fas.fa-bars {
+    color: #000;
+}
+
 @media (max-width:640px) {
     #nav-btn {
         margin-top: 63px;
@@ -11197,7 +11201,7 @@ screen and (min-width:75em) {
 }
 
 #nav-btn.white {
-    background-image: url(/themes/symphony/images/hamburger-white.png);
+    background-image: url();
 }
 
 *,
@@ -12739,7 +12743,7 @@ body.section-case-study .field-name-field-who-works-on-this .peoplerole {
 }
 
 .sprite-dna {
-    background-image: url(/themes/symphony/images/dna-sheet.png);
+    background-image: url();
     background-repeat: no-repeat;
     display: block;
     position: absolute;
@@ -12748,7 +12752,7 @@ body.section-case-study .field-name-field-who-works-on-this .peoplerole {
 }
 
 .sprite-dna.white {
-    background-image: url(/themes/symphony/images/dna-sheet-white.png);
+    background-image: url();
     opacity: 0.2;
 }
 
@@ -13294,7 +13298,7 @@ body.path-node.section-contact .headerimage {
 body.path-node .headerimage #arrow-down,
 body.path-blog .headerimage #arrow-down {
     background-repeat: no-repeat;
-    background-image: url(/themes/symphony/images/arrow-down.png);
+    background-image: url();
     width: 30px;
     height: 55px;
     text-align: center;
@@ -15557,7 +15561,7 @@ body.node--type-jobs .select2-selection--single {
     font-weight: normal;
     font-style: normal;
     src: url(/themes/symphony/fonts/slick.eot);
-    src: url(/themes/symphony/fonts/slick.eot#iefix) format('embedded-opentype'), url(/themes/symphony/fonts/slick.woff) format('woff'), url(/themes/symphony/fonts/slick.ttf) format('truetype'), url(/themes/symphony/fonts/slick.svg#slick) format('svg');
+    /* src: url(/themes/symphony/fonts/slick.eot#iefix) format('embedded-opentype'), url(/themes/symphony/fonts/slick.woff) format('woff'), url(/themes/symphony/fonts/slick.ttf) format('truetype'), url(/themes/symphony/fonts/slick.svg#slick) format('svg'); */
 }
 
 .slick-prev,
