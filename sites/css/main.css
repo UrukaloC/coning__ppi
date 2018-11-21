@@ -13052,6 +13052,7 @@ p,
     font-size: 1.5rem;
     font-weight: 300;
     color: #000;
+    text-align: justify;
 }
 
 @media (max-width:640px) {
@@ -13243,7 +13244,7 @@ body.section-contact .blockz .button:hover {
     body.not-front #main {
         background-size: cover;
         background-position: top center;
-        background-image: url(/themes/symphony/images/bg-subpage-lessthan1200-tr.png);
+        background-image: url();
     }
 }
 
@@ -13462,7 +13463,7 @@ body.node--type-people footer {
 .blockz .body {
     max-width: 760px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0;
 }
 
 @media (max-width:640px) {
