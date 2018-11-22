@@ -1,5 +1,5 @@
 html {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -6927,7 +6927,7 @@ button {
     .large-offset-14 {
         margin-left: 87.5%;
     }
-    .large-16 {
+    .b {
         width: 100%;
     }
     .large-offset-15 {
@@ -11446,7 +11446,7 @@ footer {
 }
 
 body.path-node footer {
-    margin-top: 130px;
+    margin-top: 0px;
 }
 
 footer a {
@@ -13053,6 +13053,11 @@ p,
     font-weight: 300;
     color: #000;
     text-align: justify;
+    /* padding: 20px 0px 20px 0px; */
+}
+
+p {
+    padding: 0px 0px 35px 0px;
 }
 
 @media (max-width:640px) {
@@ -13162,9 +13167,12 @@ h2 {
 
 h2.block-title,
 h2.node-title {
-    max-width: 640px;
+    /* max-width: 640px; */
     margin: 70px auto;
     text-align: center;
+    padding: 26px 0px 26px 0px;
+    border-bottom: 1px solid #E0E0E0;
+    background-color: #F9F9F9;
 }
 
 @media (max-width:640px) {
@@ -13655,7 +13663,7 @@ body.page-node-12 .orbit-caption {
 #block-ourvision {
     background-color: #3b6d3a;
     color: #fff;
-    padding: 100px 0px;
+    padding: 60px 0px;
 }
 
 #block-ourvision p {

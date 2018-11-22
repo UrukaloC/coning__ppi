@@ -494,4 +494,47 @@ div.tree-child-horizontal {
         height: 360px;
         width: 221px;
     }
+    #main.large-16.columns {
+        width: 100%;
+        background-color: #f2f2f2;
+    }
+    #footerz.large-16.columns {
+        background-color: #000;
+    }
+    /* .title-coning {
+        width: 100% !important;
+        box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
+        margin: 0 auto;
+        background-color: #fff;
+    } */
+    h2.block-title {
+        padding: 20px 0px 20px 0px;
+    }
+    body.path-node footer {
+        margin-top: 0px;
+    }
+    #block-ourvision {
+        padding: 0px !important;
+    }
+    #block-ourvision p {
+        padding-top: 45px;
+    }
+}
+
+#main.large-16.columns {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.block-weretheonlyculturedriventechnologyhouse.large-10.blockz {
+    box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.title-coning {
+    width: 62.5%;
+    box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
+    margin: 0 auto;
+    background-color: #fff;
 }
