@@ -508,7 +508,7 @@ div.tree-child-horizontal {
         background-color: #fff;
     } */
     h2.block-title {
-        padding: 20px 0px 20px 0px;
+        padding: 10px 0px 10px 0px;
     }
     body.path-node footer {
         margin-top: 0px;
@@ -518,6 +518,9 @@ div.tree-child-horizontal {
     }
     #block-ourvision p {
         padding-top: 45px;
+    }
+    .headerimage {
+        box-shadow: 3px 3px 7px rgba(57, 73, 76, 0.35);
     }
 }
 
@@ -532,9 +535,10 @@ div.tree-child-horizontal {
     margin: 0 auto;
 }
 
-.title-coning {
+
+/* .title-coning {
     width: 62.5%;
     box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
     margin: 0 auto;
     background-color: #fff;
-}
+} */
